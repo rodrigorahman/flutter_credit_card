@@ -37,7 +37,7 @@ class _CardWidgetState extends State<CardWidget>
     } else {
       rotateToLeft = false;
     }
-    print(pi / 2);
+    // PI serve para calcular o perimetro da area de um circulo
     _frontRotation = TweenSequence<double>(
       <TweenSequenceItem<double>>[
         TweenSequenceItem<double>(
